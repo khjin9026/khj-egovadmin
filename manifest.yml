@@ -1,0 +1,10 @@
+---
+applications:
+- name: khj-egovadmin
+  memory: 512M
+  host: khj-egovadmin
+  domain: paas-ta.org
+  services:
+  - khj-egov-db
+  instances: 1
+  disk_quota: 512M
